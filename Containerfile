@@ -4,5 +4,5 @@ ADD --checksum=sha256:b4edf5dd785826fb9539918e715671580395441ee15f090413fd6f89e1
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends libasound2t64 libgtk-3-0 libnss3 && \
-    dpkg-deb -x /tmp/source / && \
+    dpkg-deb -x /tmp/source / && ln -s /usr/share/codium/bin/codium /usr/bin/codium && \
     cpak-clean-junk
