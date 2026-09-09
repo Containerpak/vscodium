@@ -1,7 +1,7 @@
 FROM ubuntu:26.04 AS source
 
-ADD --checksum=sha256:b4edf5dd785826fb9539918e715671580395441ee15f090413fd6f89e1c617c7 \
-    https://github.com/VSCodium/vscodium/releases/download/1.126.04524/codium_1.126.04524_amd64.deb \
+ADD --checksum=sha256:5f5c00a9da9d232e4c84e9eee68bbdeb4d8737462022626ce3bdb6948f3d8649 \
+    https://github.com/VSCodium/vscodium/releases/download/1.135.06055/codium_1.135.06055_amd64.deb \
     /tmp/codium.deb
 
 FROM ghcr.io/containerpak/gtk3:main
