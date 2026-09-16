@@ -4,7 +4,7 @@
   "name": "VSCodium",
   "description": "Edit code with a community build of VS Code.",
   "version": "1.135.06055",
-  "image": "ghcr.io/containerpak/vscodium@sha256:b0ad3bf685ccf609e6f2733c817168e45a658e69d92873dba5e3180c8a21d78a",
+  "image": "ghcr.io/containerpak/vscodium@sha256:b396ec3e9592891f7ff419f9d5a597d1123a8fede5e5b6ec6dfa9c93cdf2b279",
   "binaries": [
     "/usr/bin/codium"
   ],
